@@ -2,7 +2,7 @@
 Turned a messy, real-world spreadsheet of sales records into a polished, analysis-ready dataset. This project focused on fixing everyday data entry errors and handling missing information safely.
 
 # Overview
-A beginner data analytics project using an Excel transaction dataset. The workbook includes the original raw data, a conservatively standardized dataset, and a validation summary
+A beginner data analytics project using an Excel transaction dataset. The workbook includes the original raw data, a conservatively standardized dataset, and a validation summary. Data quality checks were performed to identify missing values, duplicate transaction IDs, inconsistent date formats, and calculation discrepancies. Records requiring further investigation were flagged rather than automatically modified. 
 
 # Dataset
 - 50 transaction records and 20 columns in the supplied source workbook.
