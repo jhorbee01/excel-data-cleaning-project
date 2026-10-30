@@ -28,6 +28,7 @@ The workbook's sheets record rule-based checks. Initial checks found:
 - 5 negative quantities in Qty, which result in negative Gross_amt
 - Missing transaction ID ending in the digit 6.
 - 2 gross-amount mismatches between unit_price and gross_amount
+- TXN_107, TXN_108, TXN_111, and TXN_131 each appear twice
 - 14 rows flagged by the basic rule-based QA checks.
 
 These findings are **not all confirmed errors**. Duplicate IDs, negative quantities, and amount mismatches require business context and should be investigated before correcting or deleting anything. The source data was retained in 'Raw_Data' for traceability.
