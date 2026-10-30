@@ -39,6 +39,7 @@ These findings are **not all confirmed errors**. Duplicate IDs, negative quantit
 - Transaction IDs were normalized to 'TXN' prefix and '_' separator. Review uniqueness before using them as primary keys.
 - The missing transaction numbers may be related to a data entry issue, an incomplete transaction sequence, or a problem during data collection.
 - Since Prod B consistently appears under Furniture, the missing segment for Prod B may reasonably be inferred as Furniture.
+- The Promo_Tagged column contains inconsistent values, including null, NaN, and NONE, alongside valid promotional labels such as SAVE10, SAVE20, and FREE. These values were retained in their original form to preserve the source data and avoid making assumptions about missing promotional information.
 
 # Skills Demonstrated
 Excel data cleaning, text standardization, date parsing, missing-value handling, data validation, duplicate checks, arithmetic consistency checks, documentation, and raw-to-clean comparison.
